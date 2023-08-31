@@ -8,12 +8,12 @@ Console.Write("Введите число N: ");
 int n = int.Parse(Console.ReadLine());
 
 Console.Write("Чётные числа от 1 до " + n + ": ");
-for (int i = 2; i <= n; i += 2) 
+for (int i = 2; i <= n; i += 2)
 {
        Console.Write(i);
        if (i < n - 1)
        {
               Console.Write(", ");
-        }
+       }
 }
 Console.WriteLine();
