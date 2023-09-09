@@ -195,12 +195,18 @@ public class Answer {
 
 
 n = 3;
+
 m = 4;
+
 k = 2;
 
+
 int[,] result = CreateIncreasingMatrix(n, m, k);
+
 PrintArray(result);
+
 PrintListAvr(FindAverageInColumns(result));
+
 
 /*
 1   3   5   7   
