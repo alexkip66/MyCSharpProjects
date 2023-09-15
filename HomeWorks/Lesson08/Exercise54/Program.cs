@@ -23,7 +23,7 @@ int[,] CreateRandomMatrix(int m, int n, int minLimitRandom, int maxLimitRandom)
     Random rnd = new Random();
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
-            array[i, j] = rnd.Next(minLimitRandom, maxLimitRandom);
+            array[i, j] = rnd.Next(minLimitRandom, maxLimitRandom+1);
     return array;
 }
 
